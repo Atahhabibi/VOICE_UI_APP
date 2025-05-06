@@ -81,19 +81,6 @@ Monitors inference_output.json
 
 Speaks context-aware alerts
 
-🔍 File Structure
-graphql
-Copy
-Edit
-voice_ui_app/
-├── inference_runner.py       # Runs YOLO model on webcam
-├── ui_main.py                # GUI + voice interface
-├── speech_engine.py          # Manages pyttsx3 voice thread
-├── best.pt                   # Your trained YOLOv5 model
-├── inference_output.json     # Shared output for detections
-├── yolov5/                   # (Optional) YOLOv5 cloned repo
-├── requirements.txt          # Required packages
-└── README.md                 # This file
 
 
 
